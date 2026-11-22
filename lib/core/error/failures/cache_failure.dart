@@ -1,5 +1,5 @@
 import 'failure.dart';
 
 class CacheFailure extends Failure {
-  const CacheFailure({super.message = "Cache Failed"});
+  const CacheFailure({super.message = "Cache Failed", super.code});
 }

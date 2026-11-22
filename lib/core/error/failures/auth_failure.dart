@@ -1,5 +1,5 @@
 import 'failure.dart';
 
 class AuthFailure extends Failure {
-  const AuthFailure({super.message = "Authentication Failed"});
+  const AuthFailure({super.message = "Authentication Failed", super.code});
 }
