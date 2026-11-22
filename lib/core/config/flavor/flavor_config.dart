@@ -1,4 +1,4 @@
-import 'package:chatting_application_practice/core/config/app_flavor.dart';
+import 'package:chatting_application_practice/core/config/flavor/app_flavor.dart';
 
 class FlavorConfig {
   final AppFlavor appFlavor;
