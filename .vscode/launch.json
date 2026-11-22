@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ChatApp (Dev)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart",
+            "args": [
+                "--flavor",
+                "dev"
+            ]
+        },
+        {
+            "name": "ChatApp (Stag)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_stag.dart",
+            "args": [
+                "--flavor",
+                "stagging"
+            ]
+        },
+        {
+            "name": "ChatApp (Prod)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": [
+                "--flavor",
+                "production"
+            ]
+        }
+    ]
+}
